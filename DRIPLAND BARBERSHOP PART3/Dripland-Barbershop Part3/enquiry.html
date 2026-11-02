@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Enquires | Dripland Barbershop</title>
+    <meta name="description" content="Send service and pricing enquiries to Dripland Barbershop in Mkhuhlu, Mpumalanga. Ask about haircut services, prices and appointment availability.">
+
+<meta name="author" content="Dripland Barbershop">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Website header and navigation -->
+     <header> 
+        <h1>Dripland Barbershop</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact and Booking</a>
+            <a href="location.html">Location</a>
+        </nav>
+     </header>
+
+     <main> 
+
+        <!-- Enquiry introduction -->
+         <section> 
+            <h2>Service Enquiry</h2>
+            <p> Interested in one of our services? Complete the form below and let us know which service you would like to enquire about.</p>
+            </section>
+
+            <!-- Service enquiry form -->
+             <section>
+                <h2>Make an Enquiry</h2>
+                <form id="enquiryForm">
+
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+
+                    <label for="service">Select a service</label><br>
+                    <select id="service" name="service" required>
+                        <option value="">-- Select a service </option>
+                        <option value="standard-haircut">Standard Haircut - R50</option>
+                        <option value="fade"> Fade Haircut Without Dye - R70</option>
+                        <option value="beard-trim"> Beard Trim - R40</option>
+                        <option value="haircut-dye"> Haircut Fade With Dye - R150</option>
+                        <option value="children-haircut">Children's Haircut - R50</option>
+                        </select><br><br>
+                        <div id="serviceResponse" class="service-response"></div>
+
+                        <label for="message">Your Enquiry</label><br>
+                        <textarea id="message" name="message" rows="6" cols="40"
+                        placerholder="Tell us what service you are in interested in"
+                        required></textarea><br><br>
+
+                        <button type="submit">Submit Enquiry</button>
+                        <button type="reset">Clear Form</button>
+                </form>
+             </section>
+
+             <!-- Additional information -->
+              <section>
+                <h2>Need Help?</h2>
+                <p> If you have any questions about our services or prices, please contact Dripland Barbershop for more information.</p>
+
+                <a href="contact">Contact Us</a>
+              </section>
+              </main>
+
+              <!-- Website footer -->
+               <footer>
+                <p>&copy; 2026 Dripland Barbershop. All rights reserved.</p>
+               </footer>
+               <script src="js/script.js"></script>
+
+               </body>
+               </html>
+
+         
+     
+    
+
